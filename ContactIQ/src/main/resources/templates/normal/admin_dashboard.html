@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Global styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for the dashboard */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        /* Header styles */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        /* Navigation menu styles */
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .menu a {
+            margin: 0 20px;
+            padding: 10px 30px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .menu a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Main content styles */
+        .content {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Admin Dashboard</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Dashboard</a>
+            <a href="#">Users</a>
+            <a href="#">Settings</a>
+            <!-- Add more links as needed -->
+        </div>
+        <div class="content">
+            <!-- Add content for the admin dashboard here -->
+            <p>Welcome to the admin dashboard!</p>
+        </div>
+    </div>
+</body>
+</html>
